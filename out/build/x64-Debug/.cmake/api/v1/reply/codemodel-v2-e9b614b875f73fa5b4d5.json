@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CPPSQL6-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CPPSQL6-build-Debug-c2c58013bf70154bf927.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libpqxx-7"
+				},
+				{
+					"build" : "CPPSQL6-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CPPSQL6-build.src-Debug-dcc856f345a1cc8d4f12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpqxx-7/src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "CPPSQL6-build/include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CPPSQL6-build.include-Debug-c24d84bb7cf4102dcc41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpqxx-7/include"
+				},
+				{
+					"build" : "CPPSQL6-build/test",
+					"jsonFile" : "directory-CPPSQL6-build.test-Debug-7386db6787a61487535d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "libpqxx-7/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPPSQL6",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "libpqxx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CPPSQL6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CPPSQL6-Debug-787ffed1f42e944490f6.json",
+					"name" : "CPPSQL6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pqxx::@da4151916681edf7151a",
+					"jsonFile" : "target-pqxx-Debug-feef7d86fa44b1c78f4e.json",
+					"name" : "pqxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "runner::@e348881dda9134dea299",
+					"jsonFile" : "target-runner-Debug-65ef29aa218576880cfc.json",
+					"name" : "runner",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dichd/YandexDisk/Study/Postgres-SQL/WH6-2/out/build/x64-Debug",
+		"source" : "C:/Users/dichd/YandexDisk/Study/Postgres-SQL/WH6-2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

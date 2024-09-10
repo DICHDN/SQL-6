@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS public.numbertel (
+	id serial NOT NULL,
+	telephone varchar NOT NULL,
+	CONSTRAINT numbertel_pk PRIMARY KEY (id)
+);
+CREATE TABLE IF NOT EXISTS public.clients (
+	CREATE TABLE public.clients (
+	id serial NOT NULL,
+	first_mane varchar NOT NULL,
+	last_name varchar NULL,
+	email varchar NOT NULL,
+	phone int NULL,
+	CONSTRAINT clients_unique UNIQUE (email),
+	CONSTRAINT tel_number_id FOREIGN KEY (phone) REFERENCES public.numbertel(id)
+);
+
+-- Auto-generated SQL script #202409091010
+UPDATE public.clients
+	SET first_name='x',last_name='x',email='x'
+	WHERE id=1;
